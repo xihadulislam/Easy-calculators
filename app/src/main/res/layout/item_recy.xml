@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/itemimgID"
+            android:src="@drawable/prime"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/itemText"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/itemimgID"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:text="Prime Checker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
